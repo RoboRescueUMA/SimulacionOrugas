@@ -1,0 +1,2377 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="10/22/23||16:18:42" using="Simscape Multibody Link Version 7.2" from="SolidWorks 30.2.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="Ensamblaje_Sim_v0" uid="Ensamblaje_Sim_v0" version="576">
+<AssemblyFile name="Ensamblaje_Sim_v0.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="Correa v2-2" uid="Correa v2-2" entityUid="Correa v2*:*Default">
+<Transform>
+<Rotation>1.0000000000000002 -3.8497276875793527e-14 -3.049481240441354e-15 3.8614404631444521e-14 0.99999906162064167 0.0013699481144773392 2.9964637542068129e-15 -0.0013699481144773395 0.99999906162064156</Rotation>
+<Translation>-0.31654999999999922 -0.029870169264784842 0.094791009531989198</Translation>
+</Transform>
+</Instance>
+<Instance name="Panel interior v5-1" uid="Panel interior v5-1" entityUid="Panel interior v5*:*Predeterminado">
+<Transform>
+<Rotation>-1 3.9551280206127047e-14 -3.8118379980245365e-15 -3.9558353923853356e-14 -0.99999906162064167 0.0013699481144763344 -3.7576278894002613e-15 0.0013699481144763346 0.99999906162064167</Rotation>
+<Translation>-0.16649999999999918 -0.029933529365073354 0.048541052932033965</Translation>
+</Transform>
+</Instance>
+<Instance name="Reductora_NMRV030_reducer_Body-1" uid="Reductora_NMRV030_reducer_Body-1" entityUid="Reductora_NMRV030_reducer_Body*:*Predeterminado">
+<Transform>
+<Rotation>-3.5009905094717066e-15 1 -3.8713026854475343e-14 0.0013699481144769929 3.8717786702317291e-14 0.99999906162064156 0.99999906162064156 3.4479523860694926e-15 -0.0013699481144769929</Rotation>
+<Translation>-0.16649999999999884 -0.02999997184862566 4.1098443433730238e-05</Translation>
+</Transform>
+</Instance>
+<Instance name="Eje v6-1" uid="Eje v6-1" entityUid="Eje v6*:*Default">
+<Transform>
+<Rotation>1 -3.9440251445038309e-14 -3.8067422478138546e-15 3.9447333229429951e-14 0.99999906162064167 0.0013699481144763643 3.7525863492982037e-15 -0.0013699481144763645 0.99999906162064167</Rotation>
+<Translation>-0.16649999999999915 -0.029947228846218116 0.038541062315827532</Translation>
+</Transform>
+</Instance>
+<Instance name="Rodamiento61818-2RS1-3" uid="Rodamiento61818-2RS1-3" entityUid="Rodamiento61818-2RS1*:*Default">
+<Transform>
+<Rotation>-1 3.9551291746950953e-14 -3.8067422478138546e-15 -3.9558353467249657e-14 -0.99999906162064167 0.0013699481144763105 -3.7525321391895794e-15 0.001369948114476311 0.99999906162064167</Rotation>
+<Translation>-0.16649999999999904 -0.029916062526613933 0.06129104096769717</Translation>
+</Transform>
+</Instance>
+<Instance name="ArandelaM8-1" uid="ArandelaM8-1" entityUid="ArandelaM8*:*Default">
+<Transform>
+<Rotation>-1.0000000000000002 3.9939602778433136e-14 -3.8147653438902474e-15 -4.0002507719965646e-14 -0.99999906162064167 0.0013699481144766991 -3.7601215543969779e-15 0.0013699481144766991 0.99999906162064167</Rotation>
+<Translation>-0.16649999999999929 -0.029814686366142713 0.13529097152762559</Translation>
+</Transform>
+</Instance>
+<Instance name="Eje Central v1-1" uid="Eje Central v1-1" entityUid="Eje Central v1*:*Default">
+<Transform>
+<Rotation>3.8018633380376698e-15 -3.9551290476401533e-14 1 -0.0013699481144763184 0.99999906162064178 3.9724887059909774e-14 -0.99999906162064167 -0.0013699481144763186 3.7472195485444004e-15</Rotation>
+<Translation>-0.31872500000000087 0.0071893969235519439 0.093115238276655882</Translation>
+</Transform>
+</Instance>
+<Instance name="Soporte Rodamiento v3-1" uid="Soporte Rodamiento v3-1" entityUid="Soporte Rodamiento v3*:*Predeterminado">
+<Transform>
+<Rotation>3.8075553994432187e-15 0.30901699437490698 0.95105651629516685 -0.001369948114476303 0.95105562384336306 -0.30901670439973805 -0.99999906162064156 -0.0013028980812577883 0.00042333724878865952</Rotation>
+<Translation>-0.16649999999999895 -0.029930789468844574 0.05054105105527526</Translation>
+</Transform>
+</Instance>
+<Instance name="Chaveta 5x5x20-1" uid="Chaveta 5x5x20-1" entityUid="Chaveta 5x5x20*:*Default">
+<Transform>
+<Rotation>3.6735480109240096e-15 -3.8763936082478975e-14 1 -0.0013699481144764027 0.99999906162064156 3.8768932277372505e-14 -0.99999906162064156 -0.0013699481144764027 3.6204399825965082e-15</Rotation>
+<Translation>-0.1664999999999992 -0.025502030993504288 -0.0014650649155132848</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor 57HS112-1" uid="Motor 57HS112-1" grounded="true" entityUid="Motor 57HS112*:*Default">
+<Transform>
+<Rotation>3.8406294727274467e-14 -1 3.4914813388432556e-15 -1 -3.840629472727453e-14 -1.7457406694215531e-14 1.7457406694215667e-14 -3.4914813388425851e-15 -1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="RMD-X8-S2-V3_Body-1" uid="RMD-X8-S2-V3_Body-1" entityUid="RMD-X8-S2-V3_Body*:*Predeterminado">
+<Transform>
+<Rotation>1 3.9608735531215843e-14 3.7686878818434107e-15 3.9613861270053789e-14 -0.99999906162064156 -0.0013699481144763424 3.7144224328267131e-15 0.0013699481144763424 -0.99999906162064156</Rotation>
+<Translation>-0.16649999999999918 -0.029862771544960823 0.10019100446474011</Translation>
+</Transform>
+</Instance>
+<Instance name="RMD-X8-S2-V3_Rotor-1" uid="RMD-X8-S2-V3_Rotor-1" entityUid="RMD-X8-S2-V3_Rotor*:*Predeterminado">
+<Transform>
+<Rotation>0.99725001885946274 -0.074110727191151818 3.6700243538634325e-15 -0.074110657647175143 -0.99724908306062998 -0.00136994811447679 0.0001015278509816826 0.001366180782998193 -0.99999906162064178</Rotation>
+<Translation>-0.1664999999999987 -0.029862771544962169 0.10019100446474109</Translation>
+</Transform>
+</Instance>
+<Instance name="SoporteGiroCorreaV8-2" uid="SoporteGiroCorreaV8-2" entityUid="SoporteGiroCorreaV8*:*Predeterminado">
+<Transform>
+<Rotation>3.6806495351537905e-15 0.074110727191156342 0.99725001885946241 -0.0013699481144768008 0.99724908306062954 -0.074110657647179723 -0.99999906162064178 -0.0013661807829982015 0.00010152785098169995</Rotation>
+<Translation>-0.16649999999999895 -0.029815371340200091 0.13479097199681533</Translation>
+</Transform>
+</Instance>
+<Instance name="Eje exterior v1-2" uid="Eje exterior v1-2" entityUid="Eje exterior v1*:*Default">
+<Transform>
+<Rotation>0.56280678187021116 -3.7074832728319502e-15 0.82658848666122642 0.8265877110076526 0.0013699481144767601 -0.56280625374394422 -0.0011323833387476589 0.99999906162064156 0.00077101608964089358</Rotation>
+<Translation>-0.16649999999999887 -0.02984482522466126 0.1132909921719715</Translation>
+</Transform>
+</Instance>
+<Instance name="RodamientoKFL08-1" uid="RodamientoKFL08-1" entityUid="RodamientoKFL08*:*Default">
+<Transform>
+<Rotation>0.99999999999999989 -3.3833355390687568e-14 -3.8944542035679319e-15 3.406283074434362e-14 0.99999906162064167 0.0013699481144766644 3.8479961404769281e-15 -0.0013699481144766638 0.99999906162064167</Rotation>
+<Translation>-0.1665000000000002 -0.029811261495853725 0.13779096918168002</Translation>
+</Transform>
+</Instance>
+<Instance name="UnionMotorReductora-1" uid="UnionMotorReductora-1" entityUid="UnionMotorReductora*:*Default">
+<Transform>
+<Rotation>1 -3.8503199658648664e-14 -3.475903241480115e-15 3.8507925335132642e-14 0.99999906162064167 0.0013699481144770008 3.4231525939905641e-15 -0.0013699481144770008 0.99999906162064167</Rotation>
+<Translation>-0.12550000000000003 -3.2215832609552886e-05 -3.2171728775299413e-05</Translation>
+</Transform>
+</Instance>
+<Instance name="Reductora_NMRV030_reducer_Rotor-1" uid="Reductora_NMRV030_reducer_Rotor-1" entityUid="Reductora_NMRV030_reducer_Rotor*:*Predeterminado">
+<Transform>
+<Rotation>-3.4374087777566675e-15 1.0000000000000002 -3.8940334293634715e-14 0.0013699481144768763 3.9003213817561363e-14 0.99999906162064167 0.99999906162064156 3.384120240979005e-15 -0.0013699481144768763</Rotation>
+<Translation>-0.16649999999999884 -0.029998190916076833 0.0013410972235405735</Translation>
+</Transform>
+</Instance>
+<Instance name="Panel exterior v3-2" uid="Panel exterior v3-2" entityUid="Panel exterior v3*:*Predeterminado">
+<Transform>
+<Rotation>-1.0000000000000002 -3.9162451002239381e-14 3.8341725627777379e-15 -3.92253576841599e-14 0.99999906162064156 -0.0013699481144766889 -3.7805587653483297e-15 -0.0013699481144766889 -0.99999906162064167</Rotation>
+<Translation>-0.16649999999999929 -0.029811261495856507 0.13779096918168002</Translation>
+</Transform>
+</Instance>
+<Instance name="ArandelaM8-3" uid="ArandelaM8-3" entityUid="ArandelaM8*:*Default">
+<Transform>
+<Rotation>-1 4.0774406631186336e-14 -3.8173934208676828e-15 -4.0779598000243935e-14 -0.99999906162064156 0.0013699481144763353 -3.7615310172212083e-15 0.0013699481144763353 0.99999906162064156</Rotation>
+<Translation>-0.31872500000000092 0.0072039933577092083 0.10376996330311655</Translation>
+</Transform>
+</Instance>
+<Instance name="Eje Central v1-2" uid="Eje Central v1-2" entityUid="Eje Central v1*:*Default">
+<Transform>
+<Rotation>3.8018633380376698e-15 -3.9551290476401533e-14 1 -0.0013699481144763184 0.99999906162064178 3.9724887059909774e-14 -0.99999906162064167 -0.0013699481144763186 3.7472195485444004e-15</Rotation>
+<Translation>-0.31872499999999776 -0.066934187784493726 0.09321678383705316</Translation>
+</Transform>
+</Instance>
+<Instance name="ArandelaM8-7" uid="ArandelaM8-7" entityUid="ArandelaM8*:*Default">
+<Transform>
+<Rotation>-1 3.6610966419869429e-14 -3.8960949367803302e-15 -3.6616269512806708e-14 -0.99999906162064156 0.0013699481144763353 -3.8459361563492064e-15 0.0013699481144763353 0.99999906162064156</Rotation>
+<Translation>-0.3187249999999977 -0.066919591350336469 0.10387150886351383</Translation>
+</Transform>
+</Instance>
+<Instance name="Parte fija tensado v6-2" uid="Parte fija tensado v6-2" entityUid="Parte fija tensado v6*:*Default">
+<Transform>
+<Rotation>1 3.9329222260433097e-14 3.8194816233405593e-15 3.9391818107731753e-14 -0.99999906162064178 -0.001369948114476337 3.7653799349335326e-15 0.001369948114476337 -0.99999906162064167</Rotation>
+<Translation>-0.46344999999999908 -0.029933529365085143 0.048541052932032848</Translation>
+</Transform>
+</Instance>
+<Instance name="ArandelaM8-6" uid="ArandelaM8-6" entityUid="ArandelaM8*:*Default">
+<Transform>
+<Rotation>-1.0000000000000002 3.866284672363068e-14 -3.8109706362865481e-15 -3.8725750573284781e-14 -0.99999906162064167 0.0013699481144766998 -3.7580073601606312e-15 0.0013699481144767 0.99999906162064156</Rotation>
+<Translation>-0.31872499999999776 -0.066941510520168085 0.087871523877585622</Translation>
+</Transform>
+</Instance>
+<Instance name="Esparrago M6x60-1" uid="Esparrago M6x60-1" entityUid="Esparrago M6x60*:*Default">
+<Transform>
+<Rotation>1 -3.8718505046836523e-14 -3.8347146638639806e-15 3.8781199752144547e-14 0.99999906162064145 0.0013699481144765532 3.7816971776294395e-15 -0.001369948114476553 0.99999906162064145</Rotation>
+<Translation>-0.43149999999999933 -0.029801329372036958 0.1450409623784287</Translation>
+</Transform>
+</Instance>
+<Instance name="Separador Central v1-3" uid="Separador Central v1-3" entityUid="Separador Central v1*:*Default">
+<Transform>
+<Rotation>1 -3.7053075959846051e-14 -3.7278665397655342e-15 3.7115914362970087e-14 0.99999906162064156 0.0013699481144767243 3.6769632477673397e-15 -0.0013699481144767247 0.99999906162064156</Rotation>
+<Translation>-0.31872499999999782 -0.066930550935252284 0.095871516370548707</Translation>
+</Transform>
+</Instance>
+<Instance name="Parte movil tensado v5-2" uid="Parte movil tensado v5-2" entityUid="Parte movil tensado v5*:*Default">
+<Transform>
+<Rotation>1 -4.0161674382533361e-14 -3.8245773735512412e-15 4.0168977434430139e-14 0.99999906162064156 0.001369948114476801 3.7696083234062261e-15 -0.0013699481144768013 0.99999906162064167</Rotation>
+<Translation>-0.46649999999999836 -0.029811261495866721 0.13779096918167838</Translation>
+</Transform>
+</Instance>
+<Instance name="Polea Central Parte 2 v1-1" uid="Polea Central Parte 2 v1-1" entityUid="Polea Central Parte 2 v1*:*Default">
+<Transform>
+<Rotation>1 -3.9051475921863675e-14 -3.7267823375930487e-15 3.9336359585039788e-14 0.99999906162064178 0.0013699481144767271 3.6731685401636405e-15 -0.0013699481144767269 0.99999906162064167</Rotation>
+<Translation>-0.31872500000000087 0.0071916230892379723 0.094740236751790385</Translation>
+</Transform>
+</Instance>
+<Instance name="Polea Central Parte 2 v1-3" uid="Polea Central Parte 2 v1-3" entityUid="Polea Central Parte 2 v1*:*Default">
+<Transform>
+<Rotation>1 -3.7776980705245346e-14 -3.7230271834614252e-15 3.7782045610176554e-14 0.99999906162064156 0.0013699481144767421 3.6712711863617901e-15 -0.0013699481144767421 0.99999906162064156</Rotation>
+<Translation>-0.31872499999999793 -0.066931961618807656 0.094841782312187664</Translation>
+</Transform>
+</Instance>
+<Instance name="Eje Polea Pasiva v5-1" uid="Eje Polea Pasiva v5-1" entityUid="Eje Polea Pasiva v5*:*Default">
+<Transform>
+<Rotation>-3.7879313401212311e-15 -3.9717812283392281e-14 -1 0.0013699481144763344 0.99999906162064167 -3.9780395769303863e-14 0.99999906162064167 -0.0013699481144763351 -3.7334501809538345e-15</Rotation>
+<Translation>-0.46649999999999914 -0.029872395430476754 0.093166011056854903</Translation>
+</Transform>
+</Instance>
+<Instance name="Polea Central Parte 1 v1-1" uid="Polea Central Parte 1 v1-1" entityUid="Polea Central Parte 1 v1*:*Default">
+<Transform>
+<Rotation>1.0000000000000002 -3.9662109067440234e-14 -3.7259691859636845e-15 3.9613915870591669e-14 0.99999906162064167 0.0013699481144767156 3.6717590773394093e-15 -0.0013699481144767163 0.99999906162064167</Rotation>
+<Translation>-0.31872500000000092 0.0071944444563488349 0.096799704868512429</Translation>
+</Transform>
+</Instance>
+<Instance name="Separador Central v1-1" uid="Separador Central v1-1" entityUid="Separador Central v1*:*Default">
+<Transform>
+<Rotation>0.99999999999999989 -3.9719868711854461e-14 -3.7276404074621468e-15 3.9724938113497181e-14 0.99999906162064156 0.0013699481144767215 3.6732227502722647e-15 -0.0013699481144767217 0.99999906162064145</Rotation>
+<Translation>-0.31872500000000087 0.0071930337727933585 0.095769970810151414</Translation>
+</Transform>
+</Instance>
+<Instance name="Parte fija tensado v6-1" uid="Parte fija tensado v6-1" entityUid="Parte fija tensado v6*:*Default">
+<Transform>
+<Rotation>1 -3.9053610181119802e-14 -3.8341179929452686e-15 3.9058826076733248e-14 0.99999906162064156 0.0013699481144766911 3.7806129754569532e-15 -0.0013699481144766911 0.99999906162064156</Rotation>
+<Translation>-0.46344999999999931 -0.029811261495868123 0.13779096918167891</Translation>
+</Transform>
+</Instance>
+<Instance name="Parte movil tensado v5-1" uid="Parte movil tensado v5-1" entityUid="Parte movil tensado v5*:*Default">
+<Transform>
+<Rotation>1 -3.9217976129514269e-14 -3.8208368760561662e-15 3.9280798789736887e-14 0.99999906162064156 0.0013699481144768186 3.7671688685181337e-15 -0.0013699481144768186 0.99999906162064156</Rotation>
+<Translation>-0.46649999999999892 -0.029953393612745176 0.03404106653853315</Translation>
+</Transform>
+</Instance>
+<Instance name="Esparrago M6x60-2" uid="Esparrago M6x60-2" entityUid="Esparrago M6x60*:*Default">
+<Transform>
+<Rotation>1 -3.8662987648737279e-14 -3.833793092017368e-15 3.8781199341862963e-14 0.99999906162064167 0.0013699481144765669 3.7808298158914511e-15 -0.0013699481144765666 0.99999906162064167</Rotation>
+<Translation>-0.43149999999999905 -0.029943461488913831 0.041291059735283298</Translation>
+</Transform>
+</Instance>
+<Instance name="Polea Central Parte 1 v1-3" uid="Polea Central Parte 1 v1-3" entityUid="Polea Central Parte 1 v1*:*Default">
+<Transform>
+<Rotation>1 -3.9606588175330082e-14 -3.7332875506279617e-15 3.9724939436986161e-14 0.99999906162064167 0.0013699481144767247 3.6790232318950622e-15 -0.0013699481144767245 0.99999906162064156</Rotation>
+<Translation>-0.31872499999999782 -0.066929140251696842 0.096901250428909708</Translation>
+</Transform>
+</Instance>
+<Instance name="Polea pasiva Oruga v9-1" uid="Polea pasiva Oruga v9-1" entityUid="Polea pasiva Oruga v9*:*Ranuras">
+<Transform>
+<Rotation>-3.6109587135723167e-14 3.8853469053190537e-15 -1 0.99999906162064156 -0.0013699481144763348 -3.6116668648799569e-14 -0.0013699481144763355 -0.99999906162064156 -3.8359072862537147e-15</Rotation>
+<Translation>-0.46649999999999897 -0.029870169264790698 0.094791009531988532</Translation>
+</Transform>
+</Instance>
+<Instance name="ArandelaM8-2" uid="ArandelaM8-2" entityUid="ArandelaM8*:*Default">
+<Transform>
+<Rotation>-1.0000000000000002 3.888488539932508e-14 -3.8167711179093455e-15 -3.8892284609313706e-14 -0.99999906162064156 0.0013699481144767052 -3.7638078417834286e-15 0.0013699481144767048 0.99999906162064156</Rotation>
+<Translation>-0.31872500000000081 0.0071820741878775782 0.087769978317187289</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Coincident1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Motor 57HS112-1</Uid>
+</InstancePath>
+<Position>-0.024500000000000004 0.112 0.024500000000000001</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>UnionMotorReductora-1</Uid>
+</InstancePath>
+<Position>0.013499999999999998 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Motor 57HS112-1</Uid>
+</InstancePath>
+<Position>0.0235 0.0047999999999999987 -0.0235</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>UnionMotorReductora-1</Uid>
+</InstancePath>
+<Position>0.013499999999999998 -0.0235 0.02350000000000001</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric5">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Motor 57HS112-1</Uid>
+</InstancePath>
+<Position>0.023564387561379609 0.0047999999999999987 0.023499955896170148</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>UnionMotorReductora-1</Uid>
+</InstancePath>
+<Position>0.013499999999999998 -0.023500000000000007 -0.02350000000000001</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric6">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Motor 57HS112-1</Uid>
+</InstancePath>
+<Position>0 0.13300000000000001 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Reductora_NMRV030_reducer_Body-1</Uid>
+</InstancePath>
+<Position>0 0.04965 0.029999999999999995</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Parallel name="Parallel1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>UnionMotorReductora-1</Uid>
+</InstancePath>
+<Position>0.013499999999999998 -0.030000000000000002 0.029999999999999992</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Reductora_NMRV030_reducer_Body-1</Uid>
+</InstancePath>
+<Position>0.026499999999999999 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>UnionMotorReductora-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Reductora_NMRV030_reducer_Body-1</Uid>
+</InstancePath>
+<Position>0 0.041000000000000009 0.029999999999999999</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric7">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Reductora_NMRV030_reducer_Body-1</Uid>
+</InstancePath>
+<Position>-0.030300000000000001 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Reductora_NMRV030_reducer_Rotor-1</Uid>
+</InstancePath>
+<Position>0.0315 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Reductora_NMRV030_reducer_Body-1</Uid>
+</InstancePath>
+<Position>0.030300000000000004 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Reductora_NMRV030_reducer_Rotor-1</Uid>
+</InstancePath>
+<Position>0.029000000000000005 0.03343123144208382 0.0021454053849629014</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident10">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Eje v6-1</Uid>
+</InstancePath>
+<Position>0 0.0044999999999999971 -0.032500000000000001</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Chaveta 5x5x20-1</Uid>
+</InstancePath>
+<Position>0.0075000000000000006 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric8">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Eje v6-1</Uid>
+</InstancePath>
+<Position>0 0.0044999999999999971 -0.032500000000000001</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Chaveta 5x5x20-1</Uid>
+</InstancePath>
+<Position>-0.0075000000000000006 0.0049999999999999975 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric9">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Eje v6-1</Uid>
+</InstancePath>
+<Position>0 0.0044999999999999971 -0.047500000000000014</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Chaveta 5x5x20-1</Uid>
+</InstancePath>
+<Position>0.0074999999999999989 0.005000000000000001 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident11">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Reductora_NMRV030_reducer_Rotor-1</Uid>
+</InstancePath>
+<Position>0.085639085008382396 -0.0025000000000000022 0.0095000000000000015</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Chaveta 5x5x20-1</Uid>
+</InstancePath>
+<Position>0.0074999999999999989 0.005000000000000001 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric10">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Reductora_NMRV030_reducer_Rotor-1</Uid>
+</InstancePath>
+<Position>0.08563908500838241 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Eje v6-1</Uid>
+</InstancePath>
+<Position>0 0 -0.080000000000000016</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Eje v6-1</Uid>
+</InstancePath>
+<Position>0 0 -0.080000000000000016</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Reductora_NMRV030_reducer_Body-1</Uid>
+</InstancePath>
+<Position>-0.0315 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric11">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Eje v6-1</Uid>
+</InstancePath>
+<Position>0 -0.01500000000000001 0</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Panel interior v5-1</Uid>
+</InstancePath>
+<Position>0 0.015000000000000006 0</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric12">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Eje v6-1</Uid>
+</InstancePath>
+<Position>0 0.014999999999999999 0</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Panel interior v5-1</Uid>
+</InstancePath>
+<Position>0 -0.015000000000000001 0</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident12">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Eje v6-1</Uid>
+</InstancePath>
+<Position>0 0 0.010000000000000009</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Panel interior v5-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric13">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Panel interior v5-1</Uid>
+</InstancePath>
+<Position>0 0.04200000000000001 0</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Soporte Rodamiento v3-1</Uid>
+</InstancePath>
+<Position>0 -0.039944373684396406 0.012978713763748012</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric14">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Panel interior v5-1</Uid>
+</InstancePath>
+<Position>0.024686980596283409 0.033978713763748128 0</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Soporte Rodamiento v3-1</Uid>
+</InstancePath>
+<Position>0 -0.039944373684396503 -0.012978713763747679</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident13">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Panel interior v5-1</Uid>
+</InstancePath>
+<Position>0 0 0.0020000000000000018</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Soporte Rodamiento v3-1</Uid>
+</InstancePath>
+<Position>0 0.054999999999999993 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Rodamiento61818-2RS1-3</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Panel interior v5-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Concentric name="Concentric15">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Soporte Rodamiento v3-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Rodamiento61818-2RS1-3</Uid>
+</InstancePath>
+<Position>0 0 0.0065000000000000127</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident14">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Soporte Rodamiento v3-1</Uid>
+</InstancePath>
+<Position>-0.0042500000000000038 0.044999999999999998 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Rodamiento61818-2RS1-3</Uid>
+</InstancePath>
+<Position>0 0 -0.0064999999999999919</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric16">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Rodamiento61818-2RS1-3</Uid>
+</InstancePath>
+<Position>0 0 0.0065000000000000127</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>RMD-X8-S2-V3_Body-1</Uid>
+</InstancePath>
+<Position>0 0 0.032399999999999998</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Parallel name="Parallel4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>RMD-X8-S2-V3_Body-1</Uid>
+</InstancePath>
+<Position>-0.013416407864998675 0.030800000000000008 0.043400000000000001</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Panel interior v5-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident15">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Soporte Rodamiento v3-1</Uid>
+</InstancePath>
+<Position>-0.017250000000000001 0.035000000000000003 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>RMD-X8-S2-V3_Body-1</Uid>
+</InstancePath>
+<Position>-0.021499999999999991 0 0.032399999999999998</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric19">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>RMD-X8-S2-V3_Body-1</Uid>
+</InstancePath>
+<Position>0 0 -0.017600000000000005</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>RMD-X8-S2-V3_Rotor-1</Uid>
+</InstancePath>
+<Position>0 0 -0.011599999999999985</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>RMD-X8-S2-V3_Body-1</Uid>
+</InstancePath>
+<Position>0 0 -0.0126</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>RMD-X8-S2-V3_Rotor-1</Uid>
+</InstancePath>
+<Position>0 0 -0.013100000000000001</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric20">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>RMD-X8-S2-V3_Rotor-1</Uid>
+</InstancePath>
+<Position>0.013423393758658891 -0.0077500000000000069 -0.0096000000000000113</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>SoporteGiroCorreaV8-2</Uid>
+</InstancePath>
+<Position>0 0.0077499999999999722 0.013423393758658808</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric21">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>RMD-X8-S2-V3_Rotor-1</Uid>
+</InstancePath>
+<Position>-0.013423393758658891 0.0077499999999999999 -0.0096000000000000113</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>SoporteGiroCorreaV8-2</Uid>
+</InstancePath>
+<Position>0 -0.007749999999999875 -0.013423393758658864</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident20">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SoporteGiroCorreaV8-2</Uid>
+</InstancePath>
+<Position>0.01600000000000007 0.0065000000000000058 -0.0037527767497325948</Position>
+<Axis>0 -1.0000000000000002 2.55764986555225e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Eje exterior v1-2</Uid>
+</InstancePath>
+<Position>0.0075055534994651479 0.0055000000000000049 0</Position>
+<Axis>0.8660254037844386 0 -0.50000000000000033</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric22">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>SoporteGiroCorreaV8-2</Uid>
+</InstancePath>
+<Position>0.021500000000000075 0 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Eje exterior v1-2</Uid>
+</InstancePath>
+<Position>0 0.044499999999999998 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident21">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SoporteGiroCorreaV8-2</Uid>
+</InstancePath>
+<Position>0.01600000000000007 0 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Eje exterior v1-2</Uid>
+</InstancePath>
+<Position>0 0.0055000000000000049 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident23">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>RMD-X8-S2-V3_Rotor-1</Uid>
+</InstancePath>
+<Position>0 0 -0.013100000000000001</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SoporteGiroCorreaV8-2</Uid>
+</InstancePath>
+<Position>0.021500000000000075 0 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric26">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Eje exterior v1-2</Uid>
+</InstancePath>
+<Position>0 0.044499999999999998 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>ArandelaM8-1</Uid>
+</InstancePath>
+<Position>0 0 -0.00050100000000000144</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident25">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SoporteGiroCorreaV8-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ArandelaM8-1</Uid>
+</InstancePath>
+<Position>0 0 -0.00050000000000000044</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel8">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ArandelaM8-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Panel interior v5-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident26">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Panel interior v5-1</Uid>
+</InstancePath>
+<Position>0.0050148498111348416 -0.0636978987594706 -1.0000000000010001e-06</Position>
+<Axis>0.07848579405485305 -0.99691523216950584 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Panel exterior v3-2</Uid>
+</InstancePath>
+<Position>0.30758943176219422 0.03987660928678019 -9.9999999997324451e-07</Position>
+<Axis>0.078485794054853078 0.99691523216950562 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident27">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Panel exterior v3-2</Uid>
+</InstancePath>
+<Position>0 0 0.0020000000000000295</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ArandelaM8-1</Uid>
+</InstancePath>
+<Position>0 0 0.00049999999999997269</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric27">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Eje exterior v1-2</Uid>
+</InstancePath>
+<Position>0 0.044499999999999998 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Panel exterior v3-2</Uid>
+</InstancePath>
+<Position>0 0 0.0020000000000000295</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident47">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Panel exterior v3-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>RodamientoKFL08-1</Uid>
+</InstancePath>
+<Position>-0.017999999999999988 0 0</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric53">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Panel exterior v3-2</Uid>
+</InstancePath>
+<Position>0.018000000000000016 0 0.0020000000000000295</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>RodamientoKFL08-1</Uid>
+</InstancePath>
+<Position>-0.017999999999999988 0 0.0040000000000000036</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric54">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Eje exterior v1-2</Uid>
+</InstancePath>
+<Position>0 0.044499999999999998 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>RodamientoKFL08-1</Uid>
+</InstancePath>
+<Position>0 0 -9.9999999997324451e-07</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident28">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Panel interior v5-1</Uid>
+</InstancePath>
+<Position>0 0 0.0020000000000000018</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Eje Central v1-1</Uid>
+</InstancePath>
+<Position>0.04262500000000001 0 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric28">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Panel interior v5-1</Uid>
+</InstancePath>
+<Position>0.15222500000000003 -0.037061827132076383 0.0020000000000000018</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Eje Central v1-1</Uid>
+</InstancePath>
+<Position>0.04262500000000001 0 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Parallel name="Parallel9">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Panel interior v5-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Eje Central v1-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1.0000000000000002 1.6842581013915553e-16</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident29">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Panel interior v5-1</Uid>
+</InstancePath>
+<Position>0 0 0.0020000000000000018</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Eje Central v1-2</Uid>
+</InstancePath>
+<Position>0.042625000000000017 0 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric30">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Panel interior v5-1</Uid>
+</InstancePath>
+<Position>0.15222500000000003 0.037061827132076397 0.0020000000000000018</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Eje Central v1-2</Uid>
+</InstancePath>
+<Position>0.042625000000000017 0 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Parallel name="Parallel10">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Panel interior v5-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Eje Central v1-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1.0000000000000002 1.6842581013915553e-16</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Distance name="Distance4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Polea Central Parte 2 v1-1</Uid>
+</InstancePath>
+<Position>0 0 -0.041250000000000002</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Panel interior v5-1</Uid>
+</InstancePath>
+<Position>0 0 0.0020000000000000018</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric31">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Eje Central v1-1</Uid>
+</InstancePath>
+<Position>0.04262500000000001 0 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Polea Central Parte 2 v1-1</Uid>
+</InstancePath>
+<Position>0 0 -0.040001000000000009</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Parallel name="Parallel11">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Panel interior v5-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Polea Central Parte 2 v1-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>2.7981470043249762e-16 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Concentric name="Concentric32">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Eje Central v1-1</Uid>
+</InstancePath>
+<Position>0.04262500000000001 0 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>ArandelaM8-2</Uid>
+</InstancePath>
+<Position>0 0 -0.00050100000000000144</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident30">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Polea Central Parte 2 v1-1</Uid>
+</InstancePath>
+<Position>0 0 -0.007470264975356869</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ArandelaM8-2</Uid>
+</InstancePath>
+<Position>0 0 -0.00050000000000001432</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel12">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Panel interior v5-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ArandelaM8-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Concentric name="Concentric33">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Eje Central v1-1</Uid>
+</InstancePath>
+<Position>0.04262500000000001 0 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Separador Central v1-1</Uid>
+</InstancePath>
+<Position>0 0 0.0074999999999999928</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident31">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ArandelaM8-2</Uid>
+</InstancePath>
+<Position>0 0 0.00050000000000000044</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Separador Central v1-1</Uid>
+</InstancePath>
+<Position>0 0 -0.0075000000000000067</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel13">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Panel interior v5-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Separador Central v1-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident32">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Separador Central v1-1</Uid>
+</InstancePath>
+<Position>0 0 0.0074999999999999928</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ArandelaM8-3</Uid>
+</InstancePath>
+<Position>0 0 -0.00050000000000000044</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric34">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Eje Central v1-1</Uid>
+</InstancePath>
+<Position>0.04262500000000001 0 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>ArandelaM8-3</Uid>
+</InstancePath>
+<Position>0 0 -0.00050100000000000144</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Parallel name="Parallel14">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Panel interior v5-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ArandelaM8-3</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Concentric name="Concentric35">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Eje Central v1-1</Uid>
+</InstancePath>
+<Position>0.04262500000000001 0 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Polea Central Parte 1 v1-1</Uid>
+</InstancePath>
+<Position>0 0 -0.040001000000000016</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident33">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ArandelaM8-3</Uid>
+</InstancePath>
+<Position>0 0 0.00050000000000000044</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Polea Central Parte 1 v1-1</Uid>
+</InstancePath>
+<Position>0 0 0.007470264975356869</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel15">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Panel interior v5-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Polea Central Parte 1 v1-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Distance name="Distance5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Polea Central Parte 2 v1-3</Uid>
+</InstancePath>
+<Position>0 0 -0.041250000000000009</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Panel interior v5-1</Uid>
+</InstancePath>
+<Position>0 0 0.0020000000000000018</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric36">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Eje Central v1-2</Uid>
+</InstancePath>
+<Position>0.042625000000000017 0 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Polea Central Parte 2 v1-3</Uid>
+</InstancePath>
+<Position>0 0 -0.040001000000000002</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Parallel name="Parallel16">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Panel interior v5-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Polea Central Parte 2 v1-3</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Concentric name="Concentric37">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Eje Central v1-2</Uid>
+</InstancePath>
+<Position>0.042625000000000017 0 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>ArandelaM8-6</Uid>
+</InstancePath>
+<Position>0 0 -0.00050100000000000144</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident37">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Polea Central Parte 2 v1-3</Uid>
+</InstancePath>
+<Position>0 0 -0.0074702649753568828</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ArandelaM8-6</Uid>
+</InstancePath>
+<Position>0 0 -0.00050000000000000044</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel17">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Panel interior v5-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ArandelaM8-6</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident38">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ArandelaM8-6</Uid>
+</InstancePath>
+<Position>0 0 0.00050000000000000044</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Separador Central v1-3</Uid>
+</InstancePath>
+<Position>0 0 -0.0075000000000000067</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric38">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Eje Central v1-2</Uid>
+</InstancePath>
+<Position>0.042625000000000017 0 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Separador Central v1-3</Uid>
+</InstancePath>
+<Position>0 0 0.0074999999999999928</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Parallel name="Parallel18">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Panel interior v5-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Separador Central v1-3</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Concentric name="Concentric39">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Eje Central v1-2</Uid>
+</InstancePath>
+<Position>0.042625000000000017 0 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>ArandelaM8-7</Uid>
+</InstancePath>
+<Position>0 0 -0.00050100000000000144</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident39">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Separador Central v1-3</Uid>
+</InstancePath>
+<Position>0 0 0.0074999999999999928</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ArandelaM8-7</Uid>
+</InstancePath>
+<Position>0 0 -0.00050000000000000044</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel19">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Panel interior v5-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ArandelaM8-7</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident40">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ArandelaM8-7</Uid>
+</InstancePath>
+<Position>0 0 0.00050000000000001432</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Polea Central Parte 1 v1-3</Uid>
+</InstancePath>
+<Position>0 0 0.0074702649753568967</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric40">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Eje Central v1-2</Uid>
+</InstancePath>
+<Position>0.042625000000000017 0 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Polea Central Parte 1 v1-3</Uid>
+</InstancePath>
+<Position>0 0 -0.040000999999999995</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Parallel name="Parallel20">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Panel interior v5-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Polea Central Parte 1 v1-3</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1.1327391365324996e-16 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident41">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Panel exterior v3-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Parte fija tensado v6-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric41">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Panel exterior v3-2</Uid>
+</InstancePath>
+<Position>0.32395000000000007 0.011499999999999982 0.0020000000000000295</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Parte fija tensado v6-1</Uid>
+</InstancePath>
+<Position>-0.027000000000000024 0.011499999999999979 0.016000000000000042</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric43">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Panel exterior v3-2</Uid>
+</InstancePath>
+<Position>0.26995000000000013 0.011499999999999989 0.0020000000000000018</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Parte fija tensado v6-1</Uid>
+</InstancePath>
+<Position>0.026999999999999968 0.011499999999999979 0.016000000000000014</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident42">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Panel interior v5-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Parte fija tensado v6-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric46">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Panel interior v5-1</Uid>
+</InstancePath>
+<Position>0.26994999999999991 -0.011499999999999996 0.0020000000000000018</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Parte fija tensado v6-2</Uid>
+</InstancePath>
+<Position>0.027000000000000024 -0.011500000000000003 0.015999999999999993</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric47">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Panel interior v5-1</Uid>
+</InstancePath>
+<Position>0.32394999999999996 -0.011500000000000003 0.0020000000000000018</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Parte fija tensado v6-2</Uid>
+</InstancePath>
+<Position>-0.027000000000000024 -0.0115 0.015999999999999993</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident43">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Parte fija tensado v6-2</Uid>
+</InstancePath>
+<Position>-0.030500000000000027 -0.0080000000000000002 0.014499999999999999</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Parte movil tensado v5-1</Uid>
+</InstancePath>
+<Position>-0.0080000000000000626 0.0079999999999999932 0.014499999999999999</Position>
+<Axis>-1.5921546045358928e-16 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident44">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Panel interior v5-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Parte movil tensado v5-1</Uid>
+</InstancePath>
+<Position>0 0 0.014499999999999999</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident45">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Parte fija tensado v6-1</Uid>
+</InstancePath>
+<Position>-0.030499999999999972 0.0080000000000000002 0.014500000000000013</Position>
+<Axis>-1.2390881971262602e-16 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Parte movil tensado v5-2</Uid>
+</InstancePath>
+<Position>-0.0080000000000000071 0.0079999999999999932 0.014500000000000013</Position>
+<Axis>-2.1473924415456409e-16 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident46">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Panel exterior v3-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Parte movil tensado v5-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric48">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Parte movil tensado v5-2</Uid>
+</InstancePath>
+<Position>0 0 -9.9999999997324451e-07</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Eje Polea Pasiva v5-1</Uid>
+</InstancePath>
+<Position>0.060625000000000012 0 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric49">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Parte movil tensado v5-1</Uid>
+</InstancePath>
+<Position>0 0 -1.0000000000010001e-06</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Eje Polea Pasiva v5-1</Uid>
+</InstancePath>
+<Position>0.060625000000000012 0 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Eje Polea Pasiva v5-1</Uid>
+</InstancePath>
+<Position>-0.060625000000000019 0 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Parte movil tensado v5-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Polea pasiva Oruga v9-1</Uid>
+</InstancePath>
+<Position>0 -0.039999999999999994 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Panel exterior v3-2</Uid>
+</InstancePath>
+<Position>0 0 0.0020000000000000295</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric50">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Eje Polea Pasiva v5-1</Uid>
+</InstancePath>
+<Position>0.060625000000000012 0 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Polea pasiva Oruga v9-1</Uid>
+</InstancePath>
+<Position>0 0.039999999999999994 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Parallel name="Parallel21">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Panel interior v5-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Eje Polea Pasiva v5-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Parallel name="Parallel24">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Panel interior v5-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Polea pasiva Oruga v9-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Concentric name="Concentric51">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Parte fija tensado v6-1</Uid>
+</InstancePath>
+<Position>0.025500000000000023 0 0.0072499999999999787</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Esparrago M6x60-1</Uid>
+</InstancePath>
+<Position>0.030000000000000027 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance8">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Esparrago M6x60-1</Uid>
+</InstancePath>
+<Position>-0.030000000000000027 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Parte movil tensado v5-2</Uid>
+</InstancePath>
+<Position>0.0080000000000000626 -0.0079999999999999967 0.014500000000000013</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric52">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Parte fija tensado v6-2</Uid>
+</InstancePath>
+<Position>0.025500000000000023 0 0.0072499999999999926</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Esparrago M6x60-2</Uid>
+</InstancePath>
+<Position>0.029999999999999971 0 0</Position>
+<Axis>-1 -1.1299576097129535e-16 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance9">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Parte movil tensado v5-1</Uid>
+</InstancePath>
+<Position>0.0079999999999999516 -0.0079999999999999932 0.014499999999999992</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Esparrago M6x60-2</Uid>
+</InstancePath>
+<Position>-0.029999999999999971 0 0</Position>
+<Axis>-1 -1.1299576097129535e-16 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Parallel name="Parallel25">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Panel interior v5-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Esparrago M6x60-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Parallel name="Parallel26">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Panel interior v5-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Esparrago M6x60-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1.1299576097129535e-16 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Parallel name="Parallel27">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Panel interior v5-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Polea pasiva Oruga v9-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Concentric name="Concentric58">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>SoporteGiroCorreaV8-2</Uid>
+</InstancePath>
+<Position>0.0010000000000001397 0 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Correa v2-2</Uid>
+</InstancePath>
+<Position>0.1500500000000001 0 0.039999999999999994</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Parallel name="Parallel28">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Panel interior v5-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Correa v2-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1.1298652082057361e-16 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident48">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SoporteGiroCorreaV8-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Correa v2-2</Uid>
+</InstancePath>
+<Position>0.1500500000000001 0 0.039999999999999994</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="ArandelaM8" uid="ArandelaM8*:*Default" version="122">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ArandelaM8.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00014432821350834717</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>2.9531787222424321e-09 2.9531787222424308e-09 5.882632787777332e-09 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="ArandelaM8_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89411764705882346" g="0.9137254901960784" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89411764705882346" g="0.9137254901960784" b="0.92941176470588238" a="1"/>
+<Specular r="0.44705882352941173" g="0.4568627450980392" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Chaveta 5x5x20" uid="Chaveta 5x5x20*:*Default" version="111">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Chaveta 5x5x20.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00047297919253849865</Mass>
+<CenterOfMass>0 0.0025000000000000001 0</CenterOfMass>
+<Inertia>1.9182325839310524e-09 1.5195172575471461e-08 1.5246100219695103e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Chaveta 5x5x20_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.10980392156862745" g="0.10980392156862745" b="0.10980392156862745" a="1"/>
+<Diffuse r="0.10980392156862745" g="0.10980392156862745" b="0.10980392156862745" a="1"/>
+<Specular r="0.076862745098039212" g="0.076862745098039212" b="0.076862745098039212" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Correa v2" uid="Correa v2*:*Default" version="649">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Correa v2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.56248376611998707</Mass>
+<CenterOfMass>0.01906735974072717 -3.8119955795878454e-06 2.3514624395085409e-11</CenterOfMass>
+<Inertia>0.0022527460433487941 0.011204468259864681 0.012891994006070001 1.3429820440461556e-11 8.290640471337784e-12 -3.0073280314498242e-07</Inertia>
+</MassProperties>
+<GeometryFile name="Correa v2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.29803921568627451" g="0.29803921568627451" b="0.29803921568627451" a="1"/>
+<Diffuse r="0.20862745098039215" g="0.20862745098039215" b="0.20862745098039215" a="1"/>
+<Specular r="0.014901960784313726" g="0.014901960784313726" b="0.014901960784313726" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Eje Central v1" uid="Eje Central v1*:*Default" version="161">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Eje Central v1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.004176843479795354</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>3.4136728866620845e-08 2.4433324891885093e-06 2.4433324891885093e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Eje Central v1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.7803921568627451" g="0.76078431372549016" b="0.74117647058823533" a="1"/>
+<Diffuse r="0.7803921568627451" g="0.76078431372549016" b="0.74117647058823533" a="1"/>
+<Specular r="0.62431372549019615" g="0.60862745098039217" b="0.5929411764705883" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Eje Polea Pasiva v5" uid="Eje Polea Pasiva v5*:*Default" version="206">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Eje Polea Pasiva v5.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0060886683620448179</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>4.8668787626203787e-08 7.4691147186576216e-06 7.4691147186576216e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Eje Polea Pasiva v5_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.7803921568627451" g="0.76078431372549016" b="0.74117647058823533" a="1"/>
+<Diffuse r="0.7803921568627451" g="0.76078431372549016" b="0.74117647058823533" a="1"/>
+<Specular r="0.62431372549019615" g="0.60862745098039217" b="0.5929411764705883" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Eje exterior v1" uid="Eje exterior v1*:*Default" version="122">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Eje exterior v1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0026709743656008499</Mass>
+<CenterOfMass>-1.6936552403126981e-06 0.01776392467801716 -1.1177749526116614e-06</CenterOfMass>
+<Inertia>5.0388847776872547e-07 3.3293324956968437e-08 5.0390609328638875e-07 2.3145958263954912e-11 9.849266672466655e-13 5.9619901866006103e-11</Inertia>
+</MassProperties>
+<GeometryFile name="Eje exterior v1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.7803921568627451" g="0.76078431372549016" b="0.74117647058823533" a="1"/>
+<Diffuse r="0.7803921568627451" g="0.76078431372549016" b="0.74117647058823533" a="1"/>
+<Specular r="0.62431372549019615" g="0.60862745098039217" b="0.5929411764705883" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Eje v6" uid="Eje v6*:*Default" version="172">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Eje v6.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.021167119299345751</Mass>
+<CenterOfMass>6.9351297959969549e-07 -6.1152646762795989e-05 -0.014872857678440869</CenterOfMass>
+<Inertia>1.6615859017587527e-05 1.6622812184795256e-05 2.6262140819589579e-06 -3.3389634051379218e-08 5.9864849685428262e-10 2.730996110391189e-11</Inertia>
+</MassProperties>
+<GeometryFile name="Eje v6_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.7803921568627451" g="0.76078431372549016" b="0.74117647058823533" a="1"/>
+<Diffuse r="0.7803921568627451" g="0.76078431372549016" b="0.74117647058823533" a="1"/>
+<Specular r="0.62431372549019615" g="0.60862745098039217" b="0.5929411764705883" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Esparrago M6x60" uid="Esparrago M6x60*:*Default" version="240">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Esparrago M6x60.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0013545688898554183</Mass>
+<CenterOfMass>-0.00045451188449703014 -1.3585582544944311e-06 -9.5435695253444395e-07</CenterOfMass>
+<Inertia>5.100477755251133e-09 3.9637182468572441e-07 3.963654651500069e-07 4.9210802337434225e-11 2.8837233282685004e-12 -3.6138579959133202e-13</Inertia>
+</MassProperties>
+<GeometryFile name="Esparrago M6x60_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.7803921568627451" g="0.76078431372549016" b="0.74117647058823533" a="1"/>
+<Diffuse r="0.7803921568627451" g="0.76078431372549016" b="0.74117647058823533" a="1"/>
+<Specular r="0.62431372549019615" g="0.60862745098039217" b="0.5929411764705883" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Motor 57HS112" uid="Motor 57HS112*:*Default" version="134">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Motor 57HS112.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.3239478568776516</Mass>
+<CenterOfMass>-1.3856915489171685e-06 0.056731455962858772 1.283134793101557e-11</CenterOfMass>
+<Inertia>0.00042250360272701095 0.00014900142323845649 0.00042250257198300474 -2.1975803702923434e-13 2.8511612506224689e-10 2.9715800319153894e-08</Inertia>
+</MassProperties>
+<GeometryFile name="Motor 57HS112_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Panel exterior v3" uid="Panel exterior v3*:*Predeterminado" version="426">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Panel exterior v3.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.078180579120558133</Mass>
+<CenterOfMass>0.12342747550037575 0 0.0010000000000000002</CenterOfMass>
+<Inertia>6.9850389123246432e-05 0.00095522495117262337 0.0010250232199097893 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Panel exterior v3_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="0" a="1"/>
+<Diffuse r="1" g="1" b="0" a="1"/>
+<Specular r="0.29999999999999999" g="0.29999999999999999" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Panel interior v5" uid="Panel interior v5*:*Predeterminado" version="327">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Panel interior v5.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.077271088047343908</Mass>
+<CenterOfMass>0.12488023344637726 0 0.0010000000000000005</CenterOfMass>
+<Inertia>6.9539431067170565e-05 0.00094091602624798618 0.0010104039432564584 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Panel interior v5_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="0" a="1"/>
+<Diffuse r="1" g="1" b="0" a="1"/>
+<Specular r="0.29999999999999999" g="0.29999999999999999" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Parte fija tensado v6" uid="Parte fija tensado v6*:*Default" version="509">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Parte fija tensado v6.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.014498947681319683</Mass>
+<CenterOfMass>0.0021281943019969903 0 0.0080506015888957387</CenterOfMass>
+<Inertia>2.1495518965739835e-06 5.0937399520325372e-06 6.6140177060030232e-06 0 2.9609502468587765e-09 0</Inertia>
+</MassProperties>
+<GeometryFile name="Parte fija tensado v6_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Parte movil tensado v5" uid="Parte movil tensado v5*:*Default" version="345">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Parte movil tensado v5.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0028043557505323955</Mass>
+<CenterOfMass>-0.00030939435940674883 -3.7947241470756843e-10 0.0072499990748664013</CenterOfMass>
+<Inertia>1.2548639163535868e-07 1.2038521902333528e-07 1.4314387136480829e-07 7.2857429436854992e-15 6.2030460083849852e-15 1.3055649950725344e-14</Inertia>
+</MassProperties>
+<GeometryFile name="Parte movil tensado v5_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.7803921568627451" g="0.76078431372549016" b="0.74117647058823533" a="1"/>
+<Diffuse r="0.7803921568627451" g="0.76078431372549016" b="0.74117647058823533" a="1"/>
+<Specular r="0.62431372549019615" g="0.60862745098039217" b="0.5929411764705883" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Polea Central Parte 1 v1" uid="Polea Central Parte 1 v1*:*Default" version="401">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Polea Central Parte 1 v1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.046206691643237721</Mass>
+<CenterOfMass>0 0 0.021831374236994182</CenterOfMass>
+<Inertia>9.4971895524543456e-06 9.4971895524543456e-06 1.2818352180851952e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Polea Central Parte 1 v1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Polea Central Parte 2 v1" uid="Polea Central Parte 2 v1*:*Default" version="428">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Polea Central Parte 2 v1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.050107995832562195</Mass>
+<CenterOfMass>0 0 -0.02321674887788883</CenterOfMass>
+<Inertia>1.1047246326150293e-05 1.1047246326150293e-05 1.3633530475990317e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Polea Central Parte 2 v1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Polea pasiva Oruga v9" uid="Polea pasiva Oruga v9*:*Ranuras" version="722">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Polea pasiva Oruga v9.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.45708274290478351</Mass>
+<CenterOfMass>0 0.0003789124903414433 0</CenterOfMass>
+<Inertia>0.00045931743037595291 0.00048144080386756911 0.00045931743037595291 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Polea pasiva Oruga v9_Ranuras_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.10980392156862745" g="0.10980392156862745" b="0.10980392156862745" a="1"/>
+<Diffuse r="0.10980392156862745" g="0.10980392156862745" b="0.10980392156862745" a="1"/>
+<Specular r="0.076862745098039212" g="0.076862745098039212" b="0.076862745098039212" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="RMD-X8-S2-V3_Body" uid="RMD-X8-S2-V3_Body*:*Predeterminado" version="117">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="RMD-X8-S2-V3_Body.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.082885762223797205</Mass>
+<CenterOfMass>-2.612962565378346e-07 0.00096921245969614649 0.016033671111483488</CenterOfMass>
+<Inertia>9.136111187563634e-05 9.4949762128265135e-05 0.00012164112434089328 1.2577928755008416e-06 4.549453466814058e-10 6.9015036316388456e-10</Inertia>
+</MassProperties>
+<GeometryFile name="RMD-X8-S2-V3_Body_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.80000000000000004" g="0.80000000000000004" b="0.80000000000000004" a="1"/>
+<Diffuse r="0.80000000000000004" g="0.80000000000000004" b="0.80000000000000004" a="1"/>
+<Specular r="0.40000000000000002" g="0.40000000000000002" b="0.40000000000000002" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="RMD-X8-S2-V3_Rotor" uid="RMD-X8-S2-V3_Rotor*:*Predeterminado" version="117">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="RMD-X8-S2-V3_Rotor.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.018297602571773257</Mass>
+<CenterOfMass>-9.3437364674085454e-06 5.8259125669310973e-10 -0.0047971372677558547</CenterOfMass>
+<Inertia>2.5979396245633691e-06 2.5765321669187866e-06 3.9646075759655e-06 -9.0895139591149915e-14 -6.0761811390012327e-10 4.2614007464085118e-13</Inertia>
+</MassProperties>
+<GeometryFile name="RMD-X8-S2-V3_Rotor_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.80000000000000004" g="0.80000000000000004" b="0.80000000000000004" a="1"/>
+<Diffuse r="0.80000000000000004" g="0.80000000000000004" b="0.80000000000000004" a="1"/>
+<Specular r="0.40000000000000002" g="0.40000000000000002" b="0.40000000000000002" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Reductora_NMRV030_reducer_Body" uid="Reductora_NMRV030_reducer_Body*:*Predeterminado" version="143">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Reductora_NMRV030_reducer_Body.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.39076440020108572</Mass>
+<CenterOfMass>-3.3223579694448472e-09 0.0012910311568150139 0.012795679581482046</CenterOfMass>
+<Inertia>0.00042582676642297508 0.00032703615764540628 0.00025520957879694711 -8.5740959383597104e-06 -1.6916779095264998e-10 -4.0779127718553866e-11</Inertia>
+</MassProperties>
+<GeometryFile name="Reductora_NMRV030_reducer_Body_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.7803921568627451" g="0.76078431372549016" b="0.74117647058823533" a="1"/>
+<Diffuse r="0.7803921568627451" g="0.76078431372549016" b="0.74117647058823533" a="1"/>
+<Specular r="0.62431372549019615" g="0.60862745098039217" b="0.5929411764705883" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Reductora_NMRV030_reducer_Rotor" uid="Reductora_NMRV030_reducer_Rotor*:*Predeterminado" version="152">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Reductora_NMRV030_reducer_Rotor.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.028483561654152955</Mass>
+<CenterOfMass>0 0 -0.00033469597127939717</CenterOfMass>
+<Inertia>2.9585458114889032e-06 7.4306977118201927e-06 7.5099330355157266e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Reductora_NMRV030_reducer_Rotor_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.7803921568627451" g="0.76078431372549016" b="0.74117647058823533" a="1"/>
+<Diffuse r="0.7803921568627451" g="0.76078431372549016" b="0.74117647058823533" a="1"/>
+<Specular r="0.62431372549019615" g="0.60862745098039217" b="0.5929411764705883" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Rodamiento61818-2RS1" uid="Rodamiento61818-2RS1*:*Default" version="134">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Rodamiento61818-2RS1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.049529950533639025</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>6.6602393694946866e-05 6.6602393694946866e-05 0.00013194568636350145 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Rodamiento61818-2RS1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.7803921568627451" g="0.76078431372549016" b="0.74117647058823533" a="1"/>
+<Diffuse r="0.7803921568627451" g="0.76078431372549016" b="0.74117647058823533" a="1"/>
+<Specular r="0.62431372549019615" g="0.60862745098039217" b="0.5929411764705883" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="RodamientoKFL08" uid="RodamientoKFL08*:*Default" version="171">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="RodamientoKFL08.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0050021110431137644</Mass>
+<CenterOfMass>0 0 0.0036896564828450417</CenterOfMass>
+<Inertia>2.4061274683226005e-07 5.3080490462627527e-07 7.1381281289357978e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="RodamientoKFL08_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89411764705882346" g="0.9137254901960784" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89411764705882346" g="0.9137254901960784" b="0.92941176470588238" a="1"/>
+<Specular r="0.44705882352941173" g="0.4568627450980392" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Separador Central v1" uid="Separador Central v1*:*Default" version="115">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Separador Central v1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00094247779607693728</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>2.9923670025442763e-08 2.9923670025442763e-08 2.4504422698000373e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Separador Central v1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89411764705882346" g="0.9137254901960784" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89411764705882346" g="0.9137254901960784" b="0.92941176470588238" a="1"/>
+<Specular r="0.44705882352941173" g="0.4568627450980392" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Soporte Rodamiento v3" uid="Soporte Rodamiento v3*:*Predeterminado" version="144">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Soporte Rodamiento v3.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.051306640467068683</Mass>
+<CenterOfMass>-0.0069334743755319044 0.0019192252448143978 0</CenterOfMass>
+<Inertia>9.5320527905128698e-05 5.0893502627508308e-05 4.7184165377186555e-05 0 0 1.665628360577701e-07</Inertia>
+</MassProperties>
+<GeometryFile name="Soporte Rodamiento v3_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89411764705882346" g="0.9137254901960784" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89411764705882346" g="0.9137254901960784" b="0.92941176470588238" a="1"/>
+<Specular r="0.44705882352941173" g="0.4568627450980392" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="SoporteGiroCorreaV8" uid="SoporteGiroCorreaV8*:*Predeterminado" version="751">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="SoporteGiroCorreaV8.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.73441426576655666</Mass>
+<CenterOfMass>0.030736800807166117 0 0</CenterOfMass>
+<Inertia>0.0025461239198690424 0.0017035713628048589 0.0017035713628048574 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="SoporteGiroCorreaV8_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.10980392156862745" g="0.10980392156862745" b="0.10980392156862745" a="1"/>
+<Diffuse r="0.10980392156862745" g="0.10980392156862745" b="0.10980392156862745" a="1"/>
+<Specular r="0.076862745098039212" g="0.076862745098039212" b="0.076862745098039212" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="UnionMotorReductora" uid="UnionMotorReductora*:*Default" version="259">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="UnionMotorReductora.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.041639131520557038</Mass>
+<CenterOfMass>0.0052311963068578816 0 0</CenterOfMass>
+<Inertia>2.5835020407043269e-05 1.3726720525597889e-05 1.372672052559791e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="UnionMotorReductora_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.7803921568627451" g="0.76078431372549016" b="0.74117647058823533" a="1"/>
+<Diffuse r="0.7803921568627451" g="0.76078431372549016" b="0.74117647058823533" a="1"/>
+<Specular r="0.62431372549019615" g="0.60862745098039217" b="0.5929411764705883" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
