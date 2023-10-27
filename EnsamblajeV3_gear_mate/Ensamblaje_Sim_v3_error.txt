@@ -1,4 +1,0 @@
-Constrained Instances: 'Polea activa^Ensamblaje_Sim_v3-1/SoporteGiroCorreaV8-1', 'Pieza Correa-141'
-Constraint Name: GearMate2
-Error Details: Constraint is not supported. The constraint has been exported as unknown constraint.
----------------------------------------------------------------------------------
