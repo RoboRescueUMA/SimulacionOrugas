@@ -1,3 +1,7 @@
+%% Constants
+L = 524;    % mm
+R = 152.79; % mm
+
 %% Floor parameters
 Floor.l = 20;  % m
 Floor.w = 20;  % m
