@@ -1,6 +1,7 @@
 %% Constants
-L = 524;    % mm
-R = 152.79; % mm
+L = 524;    % mm Distancia lateral entre las orugas
+R = 152.79; % mm Radio de la polea activa
+D = 304.45; % mm Distancia entre centros de las poleas
 
 %% Floor parameters
 Floor.l = 20;  % m
