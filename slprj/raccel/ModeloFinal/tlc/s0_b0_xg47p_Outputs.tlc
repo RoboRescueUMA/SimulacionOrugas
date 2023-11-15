@@ -1,0 +1,84 @@
+%implements s0_b0_xg47p_Outputs "C"
+
+%function Outputs(block, system) Output
+%assign cfgTxt = ""
+%openfile cfgTxt
+%assign localVarDecl = ""
+%openfile localVarDecl
+
+NeslSimulationData *simulationData;
+NeuDiagnosticManager *diagnosticManager;
+NeuDiagnosticTree *diagnosticTree;
+char *msg;
+real_T time;
+real_T time_p;
+int32_T tmp_e;
+int_T tmp_p;
+boolean_T tmp;
+%closefile localVarDecl
+%<SLibGetRootInportsFromFile(system, TLC_FALSE)>
+%<SLibGenerateExtModeOutput(system)>
+simulationData = (NeslSimulationData *)rtDW.hmosbraitf;
+time = %<(SLibCG_SE(LibGetT()))>;
+simulationData->mData->mTime.mN = 1;
+simulationData->mData->mTime.mX = &time;
+simulationData->mData->mContStates.mN = 440;
+simulationData->mData->mContStates.mX = &rtX.fsfcwugsbi[0];
+simulationData->mData->mDiscStates.mN = 0;
+simulationData->mData->mDiscStates.mX = &rtDW.eudw5phfwv;
+simulationData->mData->mModeVector.mN = 0;
+simulationData->mData->mModeVector.mX = &rtDW.nyecjrnwiq;
+tmp = %<(SLibCG_SE(SLibCGIRGetSolverFoundZcEvents()))>;
+simulationData->mData->mFoundZcEvents = tmp;
+simulationData->mData->mIsMajorTimeStep = %<(SLibCG_SE(LibIsMajorTimeStep()))>;
+tmp = %<(SLibCG_SE(SLibCGIRGetSolverAssertCheck()))>;
+simulationData->mData->mIsSolverAssertCheck = tmp;
+tmp = %<(SLibCG_SE(RTMIsSolverCheckingCIC()))>;
+simulationData->mData->mIsSolverCheckingCIC = tmp;
+tmp = %<(SLibCG_SE(RTMIsSolverComputingJacobian()))>;
+simulationData->mData->mIsComputingJacobian = tmp;
+simulationData->mData->mIsEvaluatingF0 = (%<(SLibCG_SE(RTMGetEvaluatingF0ForJacobian()))> != 0);
+tmp = %<(SLibCG_SE(RTMIsSolverRequestingReset()))>;
+simulationData->mData->mIsSolverRequestingReset = tmp;
+simulationData->mData->mIsModeUpdateTimeStep = %<(SLibCG_SE(RTMGetIsModeUpdateTimeStep()))>;
+tmp_p = 0;
+simulationData->mData->mInputValues.mN = 0;
+simulationData->mData->mInputOffsets.mN = 1;
+simulationData->mData->mInputOffsets.mX = &tmp_p;
+simulationData->mData->mOutputs.mN = 440;
+simulationData->mData->mOutputs.mX = &rtB.bwr3dlfvl3[0];
+simulationData->mData->mTolerances.mN = 0;
+simulationData->mData->mTolerances.mX = NULL;
+simulationData->mData->mCstateHasChanged = false;
+time_p = %<(SLibCG_SE(LibGetTaskTime(0)))>;
+simulationData->mData->mTime.mN = 1;
+simulationData->mData->mTime.mX = &time_p;
+simulationData->mData->mSampleHits.mN = 0;
+simulationData->mData->mSampleHits.mX = NULL;
+simulationData->mData->mIsFundamentalSampleHit = false;
+diagnosticManager = (NeuDiagnosticManager *)rtDW.oj41h43pnv;
+diagnosticTree = neu_diagnostic_manager_get_initial_tree(diagnosticManager);
+tmp_e = ne_simulator_method((NeslSimulator *)rtDW.cl3tgvsylr, NESL_SIM_OUTPUTS, simulationData, diagnosticManager);
+if (tmp_e != 0) {
+    tmp = error_buffer_is_empty(%<(LibGetRTModelErrorStatus())>);
+    if (tmp) {
+        msg = rtw_diagnostics_msg(diagnosticTree);
+        %<(LibSetRTModelErrorStatus("msg"))>;
+    }
+}
+if (%<(SLibCG_SE(LibIsMajorTimeStep()))> && simulationData->mData->mCstateHasChanged) {
+    %<(RTMSetBlockStateForSolverChangedAtMajorStep())>;
+}
+%<SLibInsertSolverResetCode()>\
+%closefile cfgTxt
+%<cfgTxt>
+%<LibSetSystemField(system, "CachedOutputLocalVars", localVarDecl)>
+%endfunction
+%function OutputsFcnProtoType(block, system) Output
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static void Outputs0(\
+%assign comma = ""
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 2, fcnProtoType)>
+%endfunction
