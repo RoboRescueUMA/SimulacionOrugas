@@ -1,14 +1,26 @@
-%% Constants
-L = 524;    % mm Distancia lateral entre las orugas
-R = 152.79; % mm Radio de la polea activa
-D = 304.45; % mm Distancia entre centros de las poleas
+%% Inicializacion
+load("H.mat");
+load("HE.mat");
+load("PointCloud_Cadena.mat");
+load("PointCloud_PActiva.mat");
+load("PointCloud_PActiva_2.mat");
+load("pointcloudPPasiva.mat");
+load("pointcloudPActiva.mat");
+load("pointcloudPActiva.mat");
+load("Signal1.mat");
+load("Signal2.mat");
 
-%% Floor parameters
-Floor.l = 20;  % m
-Floor.w = 20;  % m
+%% Constantes
+L = 0.524;    % m Distancia lateral entre las orugas
+R = 0.15279/2;  % m Radio de la polea activa
+D = 0.30445;  % m Distancia entre centros de las poleas
+
+%% Parametros del suelo
+Floor.l = 100;  % m
+Floor.w = 100;  % m
 Floor.h = 0.1; % m
 
-% Grid parameters
+% Parametros del grid
 Grid.clr = [1 1 1]*1;
 Grid.numSqrs = 150;
 Grid.lineWidth = 0.02;
